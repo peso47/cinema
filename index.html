@@ -13,24 +13,34 @@
 <body>
 <!-- первый экран -->
     <div>
+        
+        <header style="background: grey;">
+            <a target="_blank" href="http://university.innopolis.ru" title="innopolis.ru">
+                    <img src="img/logo.png" alt="Университет иннополис" title="Университет иннополис" />
+             </a>
+            <nav>  
+                <a href="#"> ЗАКАЗАТЬ</a>
+                <a href="#"> БИЛЕТ</a>
+                <a href="#"> ПРЕИМУЩЕСТВА</a>
+                <a href="#"> ФИЛЬМЫ</a>
+                <a href="#"> КОНТАКТЫ</a>
+            </nav>
+            <sub>Ваш город:</sub>
+            <u>Москва</u>
+        </header>  
+        
         <div>
-             <div style="float: left; margin-right: 20px; background-color: black;">
-                <a target="_blank" href="http://ino.denis.wiki/"><img src="img/logo.png" alt="логотип"></a>
-            </div>
-            <div  style="float: left; margin-right: 20px;">
-                <a href="http://127.0.0.1:5500/index.html"> ЗАКАЗАТЬ</a>
-                <a href="http://127.0.0.1:5500/index.html"> БИЛЕТ</a>
-                <a href="http://127.0.0.1:5500/index.html"> ПРЕИМУЩЕСТВА</a>
-                <a href="http://127.0.0.1:5500/index.html"> ФИЛЬМЫ</a>
-                <a href="http://127.0.0.1:5500/index.html"> КОНТАКТЫ</a>
+            <img width="400" src="img/top_bg.jpg" alt="Первый кинотеатр в иннополис" title="Первый кинотеатр в иннополис" />
+        </div>
+
+        <div>
+            <div>
+                <h2>Закажите билет в кино</h2>
             </div>
             <div>
-                Ваш город: <u>Москва</u>
+                <h2>Всем покупателям подарок!</h2>
             </div>
-        </div>
-        <div>
-            <h1>Закажите билет в кино</h1>
-            <b><p>Всем покупателям подарок!</p></b>
+
         </div>
     </div>
 <!-- конец первого экрана -->
@@ -59,26 +69,128 @@
             </div>
 
             <div>
-                <b>Большие экраны</b>
+                <h4><b>Большие экраны</b></h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem cum dolores dolorum eius error expedita illum itaque molestiae mollitia nemo, nostrum officia quas ratione tempora temporibus veritatis vero voluptates.
+                Lorem ipsum dolor sit amet, consectetur<br/> 
+                adipisicing elit. At autem cum dolores dolorum eius<br/> 
+                error expedita illum itaque molestiae mollitia nemo,<br/>
+                nostrum officia quas ratione tempora temporibus</br>
+                veritatis vero voluptates.
                 </p>
             </div>
             
             <div>
-                <b>Объемный звук</b>
+                <h4><b>Объемный звук</b></h4>
                 <p>
                 Lorem ipsum dolor sit amet.
                 </p>
             </div>
 
             </div>
-            <b>Удобные кресла</b>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem cum dolores dolorum eius error expedita illum itaque molestiae mollitia nemo, nostrum officia quas ratione tempora temporibus veritatis vero voluptates.      
-            </p>
+            <h4></b>Удобные кресла</b></h4>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur<br/> 
+                adipisicing elit. At autem cum dolores dolorum eius<br/> 
+                error expedita illum itaque molestiae mollitia nemo,<br/>
+                nostrum officia quas ratione tempora temporibus</br>
+                veritatis vero voluptates.
+                </p>
             </div>
+            <table>
+                    <caption><b>Выберите фильм</b></caption>
+                <thead>
+                    <tr>
+                        <th>Check</th>
+                        <th>Начало сеанса</th>
+                        <th>Название фильма</th>
+                        <th>Жанр</th>
+                        <th>Оформить заказ</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Check</td>
+                        <td>10:00</td>
+                        <td><a title="kinopoisk.ru: Человек-паук" href="https//www.kinopoisk.ru/film/838/"
+                        target="_blanc">Человек-паук</a></td>
+                        <td>фантастика, боевик, приключения</td>
+                        <td>Заказать билет</td>
+                    </tr>
+                    <tr>
+                        <td>Check</td>
+                        <td>12:00</td>
+                        <td><a title="kinopoisk.ru: Собачья жизнь 2" href="https//www.kinopoisk.ru/film/11222114/"
+                        target="_blanc">Собачья жизнь 2</a></td>
+                        <td>фэнтези, драма, комедия</td>
+                        <td>Заказать билет</td>
+                    </tr>
+                    <tr>
+                        <td>Check</td>
+                        <td>14:00</td>
+                        <td><a title="kinopoisk.ru: История игрушек 4" href="https//www.kinopoisk.ru/film/846824/"
+                        target="_blanc">История игрушек 4</a></td>
+                        <td>Мультфильм, фэнтези, комедия</td>
+                        <td>Заказать билет</td>
+                    </tr>
+                    <tr>
+                        <td>Check</td>
+                        <td>16:00</td>
+                        <td><a title="kinopoisk.ru: Люди в черном: Интернэшнл" href="https//www.kinopoisk.ru/film/693730/"
+                        target="_blanc">Люди в черном: Интернэшнл</a></td>
+                        <td>фантастика, боевик, комедия</td>>
+                        <td>Заказать билет</td>
+                    </tr>
+                </tbody>  
+                <tfoot>
+                    
+                </tfoot>
+                
+            </table><br/>       
         </div>
-    </div>    
+    </div>
+    
+
+    <form action="/api/user/create">
+        
+        <div>
+            <input type="login" placeholder="Имя*" name="login">
+        </div><br/>
+        
+        <div>
+            <select name="some" id="">
+                <option value="1"> Выбор 1</option>
+                <option value="2"> Выбор 2</option>
+                <option value="3"> Выбор 3</option>
+            </select>
+        </div><br/>
+
+        <div>
+            <input type="radio" name="radio">
+            <label for="radio">Выбор 1</label><br/>
+            <input type="radio" name="radio">
+            <label for="radio">Выбор 2</label>
+        </div><br/>
+
+        <div>
+            <textarea name="" placehoder="Комментарий" name="description"></textarea>
+        </div><br/>
+
+        <div>
+            <input id="rules" type="checkbox">
+            <label for="rules">Я согласен на обработку персональных данных</label>
+        </div><br/>
+
+        <div>
+            <input type="file" name="file">
+            
+        </div><br/>
+
+        <div>
+            <input type="submit">
+            
+        </div>
+
+    </form>
 </body>
 </html>
