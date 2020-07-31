@@ -17,12 +17,14 @@
             <a target="_blank" href="http://university.innopolis.ru" title="innopolis.ru">
                     <img src="img/logo.png" alt="Университет иннополис" title="Университет иннополис" />
              </a>
-            <nav>  
-                <a href="#order"> ЗАКАЗАТЬ</a>
-                <a href="#ticket"> БИЛЕТ</a>
-                <a href="#advantages"> ПРЕИМУЩЕСТВА</a>
-                <a href="#films"> ФИЛЬМЫ</a>
-                <a href="#contacts"> КОНТАКТЫ</a>
+            <nav> 
+                <ul>
+                    <li><a href="#order"> ЗАКАЗАТЬ</a></li>
+                    <li><a href="#ticket"> БИЛЕТ</a></li>
+                    <li><a href="#advantages"> ПРЕИМУЩЕСТВА</a></li>
+                    <li><a href="#films"> ФИЛЬМЫ</a></li>
+                    <li><a href="#contacts"> КОНТАКТЫ</a></li>
+                </ul>
             </nav>
             <sup>Ваш город:</sup>
             <u>Москва</u>
@@ -39,7 +41,7 @@
 
         <div>
             <div>
-                <h2>Закажите билет в кино</h2>
+                <h2 id="order"><b>Закажите билет в кино</b></h2> 
             </div>
             <div>
                 <h2>Всем покупателям подарок!</h2>
@@ -53,7 +55,7 @@
     <div>
         <div>
             <h3>Добро пожаловать!</h3>
-            <p>
+
             <q>
             Cumque dolorem eum harum laudantium libero molestias saepe soluta?<br/>
             Facere minima optio perferendis quibusdam quis reprehenderit, saepe!<br/>
@@ -66,13 +68,9 @@
             Debitis enim optio saepe voluptatibus.<br/>
             </p>        
         </div>
-
-
+    
         <div>
-            <div>
-                <p><b>Почему мы?</b></p>
-            </div>
-
+            <h4 id="advantages"><b>Почему мы?</b></h4> 
             <div>
                 <h4><b>Большие экраны</b></h4>
                 <p>
@@ -92,7 +90,7 @@
             </div>
 
             <div>
-                <h4></b>Удобные кресла</b></h4>
+                <h4><b>Удобные кресла</b></h4>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur<br/> 
                 adipisicing elit. At autem cum dolores dolorum eius<br/> 
@@ -113,7 +111,7 @@
                         <th>Начало сеанса</th>
                         <th>Название фильма</th>
                         <th>Жанр</th>
-                        <th>Оформить заказ</th>
+                        <th id="ticket">Оформить заказ</th>
                     </tr>
                 </thead>
                 
@@ -158,14 +156,44 @@
         </div>
 <!-- конец третьего экрана -->
 <!-- начало четвертого экрана -->
-         <div>
-            <style>
-                
-            </style>
+
+        <div>
             <div>
-                <img width="315" src="img/b4_img.jpg" alt="Подарок" title="Подарок" />
+                <img width="315" src="img/b4_img.jpg" />
+                <h5><b>Подарок каждому!</b></h5>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate excepturi expedita libero mollitia<br/>
+                nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi sint, tenetur unde velit veniam! Lorem ipsum dolor sit amet,<br/>
+                consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate excepturi expedita libero mollitia nesciunt nihil nobis<br/>
+                obcaecati quasi ratione reprehenderit sequi sint, tenetur unde velit veniam!
+                </p>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate excepturi expedita libero mollitia<br/>
+                nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi sint, tenetur unde velit veniam!
+                </p>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam aspernatur, cum, cupiditate excepturi expedita libero mollitia<br/>
+                nesciunt nihil nobis obcaecati quasi ratione reprehenderit sequi sint, tenetur unde velit veniam!
+                </p>
+                <input type="submit" value="Получить подарок">
             </div>
-    
+        </div><br/>
+
+        <div>
+            <div>
+                <h6 id="films"><b>Фильмы</b></h6>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias, animi, commodi eius ipsum,<br/>
+                laudantium neque nihil omnis perferendis sed sequi tempore! Ad ea esse ex inventore repudiandae, suscipit!
+                </p>
+                <img width="313" src="img/mov1.jpg" />
+                <img width="313" src="img/mov2.jpg" />
+                <img width="313" src="img/mov3.jpg" />
+            </div>
+        </div><br/>
+        <div 
+                <img width="1440" src="img/1920x450.png" />
+        </div><br/>
 
     <form action="/api/user/create">
         
